@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-import matplotlib as plt
+import matplotlib.pyplot as plt
 import seaborn as sns
 from babel.numbers import format_currency
 sns.set(style="darkgrid")
