@@ -6,7 +6,7 @@ from babel.numbers import format_currency
 sns.set(style="darkgrid")
 
 # Load data
-all_df = pd.read_csv("Dashboard/all_data.csv")
+all_df = pd.read_csv("Dashboard/main_data.csv")
 
 # Create the function
 def create_weekday_analysis_df(all_df):
